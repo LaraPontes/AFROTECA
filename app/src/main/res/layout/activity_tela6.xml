@@ -7,6 +7,15 @@
     android:orientation="vertical"
     tools:context=".Tela6">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbar"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
     <TextView
         android:id="@+id/Tela_titulo_1"
         android:layout_width="match_parent"

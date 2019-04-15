@@ -15,21 +15,23 @@
             android:id="@+id/texto_pesquisa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:hint="Explore a coleção"
-            android:inputType="text"
-            android:textColorHint="#FF473A"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="55dp"
             android:fontFamily="@font/montserrat"
+            android:hint="Explore a coleção"
+            android:textColorHint="#FF473A"
+            android:inputType="text"
             android:textSize="18sp" />
 
         <SearchView
             android:id="@+id/botao_pesquisa"
-            android:layout_width="36dp"
-            android:layout_height="33dp"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="6dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginEnd="8dp"
             android:orientation="vertical">
 
         </SearchView>
@@ -54,35 +56,33 @@
                 android:layout_width="165dp"
                 android:layout_height="124dp"
                 android:layout_marginLeft="17dp"
-                android:layout_marginTop="59dp"
+                android:layout_marginTop="110dp"
                 android:background="@drawable/figura_1"
                 android:clickable="true"
+               />
 
-                />
 
-
-            <!--<ImageView
-                android:id="@+id/fig_1"
-                android:layout_width="165dp"
-                android:layout_height="124dp"
-                android:layout_marginLeft="17dp"
-                android:layout_marginTop="59dp"
-                android:background="@drawable/figura_1"
-                android:cropToPadding="true"
-                android:clickable="true"/>-->
-
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/my_toolbar"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/toolbar"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
             <TextView
                 android:id="@+id/desc_fig_1"
                 android:layout_width="166dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="19dp"
-                android:layout_marginTop="183dp"
+                android:layout_marginTop="240dp"
                 android:fontFamily="@font/montserrat"
                 android:text="MENINA BONITA DO LAÇO DE FITA"
                 android:textColor="#FF473A"
                 android:textSize="12sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
             <Button
@@ -90,25 +90,13 @@
                 android:layout_width="165dp"
                 android:layout_height="124dp"
                 android:layout_marginLeft="207dp"
-                android:layout_marginTop="59dp"
+                android:layout_marginTop="110dp"
                 android:adjustViewBounds="false"
                 android:background="@drawable/figura_2"
                 android:cropToPadding="false"
 
                 />
 
-
-
-
-            <!--<ImageView
-                android:id="@+id/fig_2"
-                android:layout_width="165dp"
-                android:layout_height="124dp"
-                android:layout_marginLeft="207dp"
-                android:layout_marginTop="59dp"
-                android:adjustViewBounds="false"
-                android:background="@drawable/figura_2"
-                android:cropToPadding="false" />-->
 
             <TextView
                 android:id="@+id/desc_fig_2"
@@ -125,101 +113,64 @@
                 android:textStyle="bold" />
 
 
-
             <Button
                 android:id="@+id/fig_3"
                 android:layout_width="165dp"
                 android:layout_height="124dp"
                 android:layout_marginLeft="17dp"
-                android:layout_marginTop="218dp"
-                android:background="@drawable/figura_3"
-                />
-
-
-            <!--<ImageView
-                android:id="@+id/fig_3"
-                android:layout_width="165dp"
-                android:layout_height="124dp"
-                android:layout_marginLeft="17dp"
-                android:layout_marginTop="218dp"
+                android:layout_marginTop="275dp"
                 android:background="@drawable/figura_3" />
--->
+
+
             <TextView
                 android:id="@+id/desc_fig_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="17dp"
-                android:layout_marginBottom="148dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="147dp"
                 android:text="O CABELO DE LELE"
                 android:textColor="#FF473A"
                 android:textSize="12sp"
                 android:textStyle="bold" />
 
-           <Button
-               android:id="@+id/fig_4"
-               android:layout_width="165dp"
-               android:layout_height="124dp"
-               android:layout_marginLeft="207dp"
-               android:layout_marginTop="217dp"
-               android:background="@drawable/figura_4" />
-
-            <!--<ImageView
+            <Button
                 android:id="@+id/fig_4"
                 android:layout_width="165dp"
                 android:layout_height="124dp"
                 android:layout_marginLeft="207dp"
-                android:layout_marginTop="217dp"
-                android:background="@drawable/figura_4" />-->
-
-            <Button
-                android:id="@+id/fig_5"
-                android:layout_width="165dp"
-                android:layout_height="124dp"
-                android:layout_marginLeft="207dp"
-                android:layout_marginTop="377dp"
-                android:background="@drawable/figura_5" />
-
-            <!--<ImageView
-                android:id="@+id/fig_5"
-                android:layout_width="165dp"
-                android:layout_height="124dp"
-                android:layout_marginLeft="207dp"
-                android:layout_marginTop="377dp"
-                android:background="@drawable/figura_5" />-->
-
-            <Button
-                android:id="@+id/fig_6"
-                android:layout_width="165dp"
-                android:layout_height="124dp"
-                android:layout_marginLeft="17dp"
-                android:layout_marginTop="376dp"
-                android:background="@drawable/figura_6"/>
-
-            <!--<ImageView
-                android:id="@+id/fig_6"
-                android:layout_width="165dp"
-                android:layout_height="124dp"
-                android:layout_marginLeft="17dp"
-                android:layout_marginTop="376dp"
-                android:background="@drawable/figura_6" />
--->
-
+                android:layout_marginTop="275dp"
+                android:background="@drawable/figura_4" />
 
             <TextView
                 android:id="@+id/desc_fig_4"
-                android:layout_width="168dp"
-                android:layout_height="34dp"
-                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginEnd="11dp"
+                android:layout_marginStart="207dp"
                 android:layout_marginBottom="134dp"
-                android:fontFamily="@font/montserrat"
-                android:text="ZUMBI O PEQUENO GUERREIRO"
+                android:text="ZUMBI O PEQUENO \nGUERREIRO"
                 android:textColor="#FF473A"
                 android:textSize="12sp"
                 android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/fig_5"
+                android:layout_width="165dp"
+                android:layout_height="124dp"
+                android:layout_marginLeft="207dp"
+                android:layout_marginTop="435dp"
+                android:background="@drawable/figura_5" />
+
+            <Button
+                android:id="@+id/fig_6"
+                android:layout_width="165dp"
+                android:layout_height="124dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="435dp"
+                android:background="@drawable/figura_6" />
 
         </RelativeLayout>
 
