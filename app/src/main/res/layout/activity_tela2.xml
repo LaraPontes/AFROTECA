@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tela2">
+
+    <TextView
+        android:id="@+id/Tela_titulo_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text= "TÍTULO"
+        android:textAlignment="viewStart"
+
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Tela_titulo_2"
+        android:layout_width="282dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="MENINA BONITA DO LAÇO DE FITA"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Tela_autor"
+        android:layout_width="285dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="10dp"
+        android:text="ANA MARIA MACHADO"
+        android:textColor="#FF473A"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/fig_1"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/figura_1"/>
+
+    <TextView
+        android:id="@+id/Tela_frase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text='"Menina bonita do laço de fita,\n qual é o seu segredo pra ser\n tão pretinha?"'
+        android:textAlignment="center"
+        android:textColor="#979797"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Tela_hist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="HISTÓRIA"
+        android:textAlignment="viewStart"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Conteudo_historia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Era uma vez uma menina linda, linda.\u000DOs olhos pareciam duas azeitonas pretas brilhantes, os cabelos enroladinhos e bem negros.\u000DA pele era escura e lustrosa, que nem o pelo da pantera negra na chuva.\u000D Ainda por cima, a m\u00C3\u00A3e gostava de fazer trancinhas no cabelo dela e enfeitar com la\u00C3\u00A7os de fita\u000Dcoloridas.\u000DEla ficava parecendo uma princesa das terras da \u00C3\u0081frica, ou uma fada do Reino do Luar.\u000D\nE, havia um coelho bem branquinho, com olhos vermelhos e focinho nervoso sempre\u000D\ntremelicando. O coelho achava a menina a pessoa mais linda que ele tinha visto na vida.\u000D\nE pensava:"
+        android:textColor="#979797"
+        android:textSize="12dp" />
+   
+       
+</LinearLayout>
+
+

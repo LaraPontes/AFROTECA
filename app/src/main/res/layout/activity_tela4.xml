@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tela4">
+
+    <TextView
+        android:id="@+id/Tela_titulo_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text= "TÍTULO"
+        android:textAlignment="viewStart"
+
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Tela_titulo_2"
+        android:layout_width="282dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="O CABELO DE \nLELÊ"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Tela_autor"
+        android:layout_width="285dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="10dp"
+        android:text="VALÉRIA BELÉM"
+        android:textColor="#FF473A"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/fig_1"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/figura_3"/>
+
+    <TextView
+        android:id="@+id/Tela_frase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text='"Escreva aqui"'
+        android:textAlignment="center"
+        android:textColor="#979797"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Tela_hist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="HISTÓRIA"
+        android:textAlignment="viewStart"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Conteudo_historia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Escreva aqui"
+        android:textColor="#979797"
+        android:textSize="12dp" />
+
+
+</LinearLayout>
+
+

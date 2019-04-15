@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/raiz"
     android:layout_width="match_parent"
@@ -16,16 +15,11 @@
             android:id="@+id/texto_pesquisa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="2dp"
-            android:backgroundTint="#FF473A"
+            android:layout_margin="8dp"
+            android:hint="Explore a coleção"
+            android:inputType="text"
+            android:textColorHint="#FF473A"
             android:fontFamily="@font/montserrat"
-            android:text="Explore a coleção"
-            android:textAlignment="textStart"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="#FF473A"
             android:textSize="18sp" />
 
         <SearchView
@@ -42,7 +36,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/todas"
+        android:id="@+id/componente_historias"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -51,17 +45,32 @@
         android:layout_marginTop="0dp">
 
         <RelativeLayout
+            android:id="@+id/historias"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
+            <Button
                 android:id="@+id/fig_1"
                 android:layout_width="165dp"
                 android:layout_height="124dp"
                 android:layout_marginLeft="17dp"
                 android:layout_marginTop="59dp"
                 android:background="@drawable/figura_1"
-                android:cropToPadding="true" />
+                android:clickable="true"
+
+                />
+
+
+            <!--<ImageView
+                android:id="@+id/fig_1"
+                android:layout_width="165dp"
+                android:layout_height="124dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="59dp"
+                android:background="@drawable/figura_1"
+                android:cropToPadding="true"
+                android:clickable="true"/>-->
+
 
             <TextView
                 android:id="@+id/desc_fig_1"
@@ -73,9 +82,10 @@
                 android:text="MENINA BONITA DO LAÇO DE FITA"
                 android:textColor="#FF473A"
                 android:textSize="12sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
 
-            <ImageView
+
+            <Button
                 android:id="@+id/fig_2"
                 android:layout_width="165dp"
                 android:layout_height="124dp"
@@ -83,7 +93,22 @@
                 android:layout_marginTop="59dp"
                 android:adjustViewBounds="false"
                 android:background="@drawable/figura_2"
-                android:cropToPadding="false" />
+                android:cropToPadding="false"
+
+                />
+
+
+
+
+            <!--<ImageView
+                android:id="@+id/fig_2"
+                android:layout_width="165dp"
+                android:layout_height="124dp"
+                android:layout_marginLeft="207dp"
+                android:layout_marginTop="59dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/figura_2"
+                android:cropToPadding="false" />-->
 
             <TextView
                 android:id="@+id/desc_fig_2"
@@ -99,14 +124,26 @@
                 android:textSize="12sp"
                 android:textStyle="bold" />
 
-            <ImageView
+
+
+            <Button
+                android:id="@+id/fig_3"
+                android:layout_width="165dp"
+                android:layout_height="124dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="218dp"
+                android:background="@drawable/figura_3"
+                />
+
+
+            <!--<ImageView
                 android:id="@+id/fig_3"
                 android:layout_width="165dp"
                 android:layout_height="124dp"
                 android:layout_marginLeft="17dp"
                 android:layout_marginTop="218dp"
                 android:background="@drawable/figura_3" />
-
+-->
             <TextView
                 android:id="@+id/desc_fig_3"
                 android:layout_width="wrap_content"
@@ -120,29 +157,55 @@
                 android:textSize="12sp"
                 android:textStyle="bold" />
 
-            <ImageView
+           <Button
+               android:id="@+id/fig_4"
+               android:layout_width="165dp"
+               android:layout_height="124dp"
+               android:layout_marginLeft="207dp"
+               android:layout_marginTop="217dp"
+               android:background="@drawable/figura_4" />
+
+            <!--<ImageView
                 android:id="@+id/fig_4"
                 android:layout_width="165dp"
                 android:layout_height="124dp"
                 android:layout_marginLeft="207dp"
                 android:layout_marginTop="217dp"
-                android:background="@drawable/figura_4" />
+                android:background="@drawable/figura_4" />-->
 
-            <ImageView
+            <Button
                 android:id="@+id/fig_5"
                 android:layout_width="165dp"
                 android:layout_height="124dp"
                 android:layout_marginLeft="207dp"
                 android:layout_marginTop="377dp"
-                android:background="@drawable/figura_6" />
+                android:background="@drawable/figura_5" />
 
-            <ImageView
+            <!--<ImageView
+                android:id="@+id/fig_5"
+                android:layout_width="165dp"
+                android:layout_height="124dp"
+                android:layout_marginLeft="207dp"
+                android:layout_marginTop="377dp"
+                android:background="@drawable/figura_5" />-->
+
+            <Button
                 android:id="@+id/fig_6"
                 android:layout_width="165dp"
                 android:layout_height="124dp"
                 android:layout_marginLeft="17dp"
                 android:layout_marginTop="376dp"
-                android:background="@drawable/figura_5" />
+                android:background="@drawable/figura_6"/>
+
+            <!--<ImageView
+                android:id="@+id/fig_6"
+                android:layout_width="165dp"
+                android:layout_height="124dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="376dp"
+                android:background="@drawable/figura_6" />
+-->
+
 
             <TextView
                 android:id="@+id/desc_fig_4"
@@ -162,3 +225,4 @@
 
     </RelativeLayout>
 
+</RelativeLayout>
